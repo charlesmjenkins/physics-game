@@ -1,0 +1,90 @@
+/*
+Author: Charles (C.J.) Jenkins
+Assignment #: 4
+Description: Style for how-to guide
+Due Date: 08-17-14
+Acknowledgements: Google Fonts API
+*/
+
+/*Fonts - Courtesy of Google Fonts API
+---------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+/*Body 
+---------------------------------------------------------*/
+html, body {
+  margin: 0px;
+  font-family: 'Open Sans', 'arial', sans-serif;
+  font-size: 18px;
+  background-color: #ddd;
+  color: #444;
+}
+
+pre {
+  width: 1000px;
+}
+
+/*Content Blocks
+---------------------------------------------------------*/
+#content {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000px;
+  background-color: #fff;
+}
+
+#innerContent {
+  text-align: left;
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #fff;
+}
+
+#game_div {
+  text-align: center;
+  margin: 0 auto;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*Headings
+---------------------------------------------------------*/
+h1 {
+  font-family: 'Varela Round', 'arial', sans-serif;
+  font-size: 36pt;
+  color: #E59400;
+}
+
+h2 {
+  font-family: 'Varela Round', 'arial', sans-serif;
+  font-size: 26pt;
+  color: #777;
+}
+
+/*Lists
+---------------------------------------------------------*/
+ul {
+  list-style-type: none;
+}
+
+/*Links
+---------------------------------------------------------*/
+a:link {
+  color: #E59400;
+}
+
+a:hover {
+  color: #603D00;
+}
+
+a:visited {
+  color: #A06700;
+}
